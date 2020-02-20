@@ -7,4 +7,6 @@ git clone https://github.com/KellyShyno/customPanel
 cd customPanel
 chmod -R a+rx *
 ./customPanel.sh
+#updating script
+./update.sh
 #break a leg (&_&)
