@@ -10,3 +10,4 @@ chmod -R a+rx *
 #updating script
 ./update.sh
 #break a leg (&_&)
+#vk: https://vk.com/termuxkelly

@@ -3,6 +3,9 @@
 #customPanel
 
 echo ""
+echo -e "\e[1;31mversion: 1.1.0\e[0m"
+echo -e "\e[1;36mvk: https://vk.com/termuxkelly\e[0m"
+echo ""
 echo -e "\e[1;32mEnter of the number to change the panel:\e[0m";
 echo ""
 echo -e "\e[1;36m0.\e[0m\e[1;33mDefaultPanel\e[0m"
