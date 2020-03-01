@@ -2,9 +2,11 @@
 #KellyShyno
 #customPanel
 
+
 echo ""
-echo -e "\e[1;31mversion: 1.1.0\e[0m"
-echo -e "\e[1;36mvk: https://vk.com/termuxkelly\e[0m"
+echo -e "\e[1;31mcustomPanel\e[0m""\e[1;35m(&_&)\e[0m"
+echo -e "\e[1;31mversion: 1.1.1\e[0m"
+echo -e "\e[1;33mvk: https://vk.com/termuxkelly\e[0m"
 echo ""
 echo -e "\e[1;32mEnter of the number to change the panel:\e[0m";
 echo ""
@@ -43,7 +45,7 @@ echo -e "\e[1;32mSecond panel installed\e[0m"
  fi
 echo ""
 echo -e "\e[1;36mrestart termux to see the changes of panel\e[0m"
-echo -e "\e[1;36mthat's awesome, isn't it?) (&_&)\e[0m"
+echo -e "\e[1;36mthat's awesome, isn't it?)\e[0m""\e[1;35m(&_&)\e[0m"
 
    else
 echo -e "\e[1;31mERROR: enter the correct number\e[0m"
