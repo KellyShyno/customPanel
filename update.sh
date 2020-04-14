@@ -3,7 +3,7 @@
 #customPanel
 
 echo ""
-echo -e "\e[1;33mUpdating customPanel script\e[0m"
+echo -e "\e[1;33mUpdating customPanel program..\e[0m"
 echo ""
 mkdir tmp
 cd tmp

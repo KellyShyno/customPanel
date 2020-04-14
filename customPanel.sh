@@ -2,7 +2,6 @@
 #KellyShyno
 #customPanel
 
-
 echo ""
 echo -e "\e[1;31mcustomPanel\e[0m""\e[1;35m(&_&)\e[0m"
 echo -e "\e[1;31mversion: 1.1.1\e[0m"
