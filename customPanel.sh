@@ -5,7 +5,7 @@
 echo ""
 echo -e "\e[1;31mcustomPanel\e[0m""\e[1;35m(&_&)\e[0m"
 echo -e "\e[1;31mversion: 1.1.1\e[0m"
-echo -e "\e[1;33mvk: https://vk.com/termuxkelly\e[0m"
+echo -e "\e[1;33mvk: https://vk.com/linuxkelly\e[0m"
 echo ""
 echo -e "\e[1;32mEnter of the number to change the panel:\e[0m";
 echo ""
