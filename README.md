@@ -1,11 +1,13 @@
 # customPanel
 
-> **customPanel - is the program to change the panel in termux**
+> **customPanel - is the program for changing the panel in termux**
 
 ## Installing
 
 `git clone https://github.com/KellyShyno/customPanel`
+
 `cd customPanel`
+
 `./customPanel.sh`
 
 ## About us
