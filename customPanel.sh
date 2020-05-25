@@ -2,6 +2,14 @@
 #KellyShyno
 #customPanel
 
+changeMod() {
+chmod -R a+rx *;
+}
+changeMod;
+
+
+
+
 inst() {
 clear
 sleep 0.34;
