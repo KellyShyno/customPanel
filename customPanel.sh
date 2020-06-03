@@ -12,7 +12,7 @@ changeMod;
 
 banner()
 {
-clear
+clear;
 sleep 0.16;
 echo "";
 echo -e '\e[1;31m                _                  ____                  _\e[0m';
@@ -28,8 +28,16 @@ echo "";
 
 
 
+input()
+{
+echo -en "\e[1;36m (\e[0m""\e[1;31mo\e[0m""\e[1;36m_\e[0m""\e[1;31m0\e[0m";
+echo -en "\e[1;36m)\e[0m" "\e[1;31m> \e[0m";
+}
+
+
+
 installed() {
-clear
+clear;
 sleep 0.34;
 echo "";
 echo -e "\e[1;31m $name\e[0m" "\e[1;36minstalled\e[0m";
@@ -48,16 +56,17 @@ echo "";
 echo -e '\e[1;31m| \e[0m'"\e[1;36m0\e[0m"'\e[1;31m | \e[0m'"\e[1;36mDefaultPanel\e[0m";
 echo -e '\e[1;31m| \e[0m'"\e[1;36m1\e[0m"'\e[1;31m | \e[0m'"\e[1;36mClassicPanel\e[0m";
 echo -e '\e[1;31m| \e[0m'"\e[1;36m2\e[0m"'\e[1;31m | \e[0m'"\e[1;36mCodingPanel\e[0m";
-echo -e '\e[1;35m| \e[0m'"\e[1;31mx\e[0m"'\e[1;35m | \e[0m'"\e[1;36mexit\e[0m";
-echo ""
-echo -en "\e[1;36m (\e[0m""\e[1;31m@\e[0m""\e[1;36m.\e[0m""\e[1;31m@\e[0m";
-echo -en "\e[1;36m)\e[0m" "\e[1;31m> \e[0m";
+echo -e '\e[1;35m| \e[0m'"\e[1;31mu\e[0m"'\e[1;35m | \e[0m'"\e[1;35mupdate\e[0m";
+echo -e '\e[1;35m| \e[0m'"\e[1;31mx\e[0m"'\e[1;35m | \e[0m'"\e[1;31mexit\e[0m";
+echo "";
+input;
  read pan
 
     case $pan in
 0) rm -rf $HOME/.termux/termux.properties; name="DefaultPanel"; installed; ;;
 1) rm -rf $HOME/.termux; bash ./data/panels/ClassicPanel.sh; name="ClassicPanel"; installed; ;;
 2) rm -rf $HOME/.termux; bash ./data/panels/CodingPanel.sh; name="CodingPanel"; installed; ;;
+"u") ./data/update/update.sh; panel; ;;
 "x") echo ""; exit 0; ;;
 *) clear; echo -e "\e[1;31mERROR: write the correct number..\e[0m"; sleep 0.7; panel; ;;
     esac;
