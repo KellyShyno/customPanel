@@ -4,11 +4,11 @@
 
 ## Installing
 
-`git clone https://github.com/KellyShyno/customPanel`
-
-`cd customPanel`
-
-`./customPanel.sh`
+```
+git clone https://github.com/KellyShyno/customPanel
+cd customPanel
+./customPanel.sh
+```
 
 ## About us
 
