@@ -28,6 +28,13 @@ echo "";
 
 
 
+error()
+{
+clear; echo -e "\e[1;31mERROR: write the correct number..\e[0m"; sleep 0.6; panel;
+}
+
+
+
 input()
 {
 echo -en "\e[1;36m (\e[0m""\e[1;31mo\e[0m""\e[1;36m_\e[0m""\e[1;31m0\e[0m";
@@ -68,7 +75,7 @@ input;
 2) rm -rf $HOME/.termux; bash ./data/panels/CodingPanel.sh; name="CodingPanel"; installed; ;;
 "u") ./data/update/update.sh; panel; ;;
 "x") echo ""; exit 0; ;;
-*) clear; echo -e "\e[1;31mERROR: write the correct number..\e[0m"; sleep 0.7; panel; ;;
+*) error; ;;
     esac;
 }
 panel;
