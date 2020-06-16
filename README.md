@@ -7,7 +7,7 @@
 ```
 git clone https://github.com/KellyShyno/customPanel
 cd customPanel
-chmod +x customPanel.sh
+chmod -R a+rx *
 ./customPanel.sh
 ```
 
