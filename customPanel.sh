@@ -3,10 +3,7 @@
 #customPanel
 #version: 2.2.2
 
-changeMod() {
 chmod -R a+rx *;
-}
-changeMod;
 
 
 
